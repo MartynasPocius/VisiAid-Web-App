@@ -221,7 +221,7 @@ const Directions = () => {
       <div className = 'directions__map__box'>
 
       <LoadScript
-        googleMapsApiKey='AIzaSyC0Bf23eVc3q6yqxhWkqEiZHqKa_62jlRs'
+        googleMapsApiKey='YOUR_API_KEY'
       >
         <GoogleMap
           mapContainerStyle={containerStyle}

@@ -1,0 +1,48 @@
+.directions__box{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.directions__box p{
+    margin: 0;
+    padding: 0;
+    font-size: 200%;
+    font-weight: 700;
+}
+
+.directions__map__box{
+    width: 100%;
+    height: 40%;
+}
+
+.directions__box input {
+    width: 100%; /* Span the full width of its parent */
+    height: 10%; /* Take up 20% of the viewport height */
+    border-radius: 15px 15px 0px 0px; /* Rounded corners - adjust as needed */
+    padding: 0 1em; /* Add some padding inside the input on the left and right */
+    box-sizing: border-box; /* Ensure padding does not add to the total width */
+    border: 1px solid #ffffff; /* Basic border - adjust color as needed */
+    font-size: 1.2em; /* Adjust font size as needed */
+}
+  
+
+.directions__submit__box{
+    width: 100%;
+    height: 20%;
+    background-color: #54CCFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.directions__back__box{
+    background-color: black;
+    width: 100%;
+    height: 20%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

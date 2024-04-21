@@ -1,0 +1,59 @@
+.nav__device__container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.nav__device__container p{
+    margin: 0;
+    padding: 0;
+    font-size: 200%;
+    font-weight: 700;
+}
+
+.nav__device__container__top{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: smaller;
+}
+
+.nav__device__container__bottom{
+    width: 100%;
+    height: 90%;
+    background-color: white;
+    border-radius: 15px 15px 0 0;
+}
+.nav__device__connect{
+    background-color: #54CCFF;
+    width: 100%;
+    height: 50%;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav__device__disconnect{
+    background-color: red;
+    width: 100%;
+    height: 50%;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav__device__back{
+    background-color: black;
+    width: 100%;
+    height: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
